@@ -1,5 +1,5 @@
+// This is my factorial program
 import java.io.*;
-
 public class Factorial {
     public static void main(String args[]) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
