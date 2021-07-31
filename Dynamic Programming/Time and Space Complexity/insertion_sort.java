@@ -4,8 +4,8 @@ public class insertion_sort {
     public static void insertionSort(int arr[]) {
         for (int i = 1; i < arr.length; i++) {
             for (int j = i - 1; j >= 0; j--) {
-                if (isSmaller(arr, j + 1, j)) {
-                    swap(arr, j + 1, j);
+                if (isGreater(arr, j, j + 1)) {
+                    swap(arr, j, j + 1);
                 } else {
                     break;
                 }
@@ -13,7 +13,7 @@ public class insertion_sort {
         }
     }
 
-    public static boolean isSmaller(int arr[], int i, int j) {
+    public static boolean isGreater(int arr[], int i, int j) {
         System.out.println("Greater " + arr[i] + " and " + arr[j]);
         if (arr[i] < arr[j]) {
             return true;
