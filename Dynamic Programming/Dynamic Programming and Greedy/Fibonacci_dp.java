@@ -35,5 +35,6 @@ public class Fibonacci_dp{
         System.out.print( 1+" -> ");
         System.out.print( 0);
         System.out.println("\n"+ans);
+        sc.close();
     }
 }       

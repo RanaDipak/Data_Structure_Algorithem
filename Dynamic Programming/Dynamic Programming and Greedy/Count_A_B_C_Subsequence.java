@@ -17,5 +17,6 @@ public class Count_A_B_C_Subsequence {
             }
         }
         System.out.println(abc);
+        sc.close();
     }
 }
